@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{8c1346e9-57a7-44c4-a2e2-9dc45fd3b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{803b3ddd-7fa1-450d-81e1-7491425e9fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Design">
+      <UniqueIdentifier>{d57ba800-c45f-425a-9ec0-4fd3b42b5f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Design\00.AbstractFactory">
+      <UniqueIdentifier>{5575d83a-ff5e-42d2-90a9-1ca3484d81ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.Player">
+      <UniqueIdentifier>{dcdf39d2-2726-4481-8317-f8028e1f4235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Bullet">
+      <UniqueIdentifier>{0012574e-1e97-4681-8072-25c7a625f419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Enemy">
+      <UniqueIdentifier>{950278be-98be-4e98-842a-b87bb5840310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item">
+      <UniqueIdentifier>{9bc95476-2f2e-4cd0-96ee-7f68b93f82bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\BombItem">
+      <UniqueIdentifier>{a25bdc8a-f507-4187-b8c5-5f8d63fb0952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\InvincibleItem">
+      <UniqueIdentifier>{aa2bc531-e51b-4d2b-9c3d-da9f8c2569fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\LifeItem">
+      <UniqueIdentifier>{1e400646-deb4-4936-8bfe-7ef41e5bb582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\PowerItem">
+      <UniqueIdentifier>{2bcb3bf9-6978-4f4c-a447-cea93e4ed2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.EnemyPattern">
+      <UniqueIdentifier>{834f0616-62bd-466d-97b6-8a4736be6fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.EnemyStage">
+      <UniqueIdentifier>{7b4f3755-7ea0-4ca9-855b-945a5b364523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Enemy\00.NormalEnemy">
+      <UniqueIdentifier>{3fa399ef-ca84-4f83-ade5-ae51803d9d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Enemy\01.BossEnemy">
+      <UniqueIdentifier>{469ce530-d033-4ab5-acf8-8cf693ffe38a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project_1945.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>99.Design\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>99.Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01.Obj\01.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.Obj\03.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BombItem.h">
+      <Filter>01.Obj\03.Item\BombItem</Filter>
+    </ClInclude>
+    <ClInclude Include="InvincibleItem.h">
+      <Filter>01.Obj\03.Item\InvincibleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeItem.h">
+      <Filter>01.Obj\03.Item\LifeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerItem.h">
+      <Filter>01.Obj\03.Item\PowerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>01.Obj\02.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPattern.h">
+      <Filter>02.EnemyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStage.h">
+      <Filter>03.EnemyStage</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyA.h">
+      <Filter>01.Obj\02.Enemy\00.NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyB.h">
+      <Filter>01.Obj\02.Enemy\00.NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyC.h">
+      <Filter>01.Obj\02.Enemy\00.NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyD.h">
+      <Filter>01.Obj\02.Enemy\00.NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyE.h">
+      <Filter>01.Obj\02.Enemy\00.NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01.Obj\02.Enemy\01.BossEnemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project_1945.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>99.Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01.Obj\01.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.Obj\03.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BombItem.cpp">
+      <Filter>01.Obj\03.Item\BombItem</Filter>
+    </ClCompile>
+    <ClCompile Include="InvincibleItem.cpp">
+      <Filter>01.Obj\03.Item\InvincibleItem</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeItem.cpp">
+      <Filter>01.Obj\03.Item\LifeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerItem.cpp">
+      <Filter>01.Obj\03.Item\PowerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>01.Obj\02.Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPattern.cpp">
+      <Filter>02.EnemyPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStage.cpp">
+      <Filter>03.EnemyStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01.Obj\02.Enemy\01.BossEnemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project_1945.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project_1945.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
